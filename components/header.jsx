@@ -26,13 +26,7 @@ export default async function Header() {
     <header className="fixed top-0 w-full border-b bg-background/80 backdrop-blur-md z-50 supports-[backdrop-filter]:bg-background/60">
       <nav className="container mx-auto px-4 h-16 flex items-center justify-between">
         <Link href="/">
-          <Image
-            src={"/logo.png"}
-            alt="Sensai Logo"
-            width={200}
-            height={60}
-            className="h-12 py-1 w-auto object-contain"
-          />
+          <span className="text-3xl font-extrabold tracking-tight bg-gradient-to-r from-gray-200 via-gray-400 to-gray-600 text-transparent bg-clip-text py-2 dark:from-gray-100 dark:to-gray-500">CareerForgeAI</span>
         </Link>
 
         {/* Action Buttons */}
